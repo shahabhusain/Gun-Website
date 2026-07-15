@@ -46,7 +46,7 @@ const FeaturedProducts = () => {
 
         <div
           ref={scrollRef}
-          className=" grid grid-cols-4 gap-4 lg:gap-6 overflow-x-auto pb-4"
+          className=" grid md:grid-cols-4 grid-cols-2 gap-4 lg:gap-6 overflow-x-auto pb-4"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
           {products.map((product) => (
